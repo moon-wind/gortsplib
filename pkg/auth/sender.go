@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/headers"
+	"github.com/moon-wind/gortsplib/pkg/base"
+	"github.com/moon-wind/gortsplib/pkg/headers"
 )
 
 func findHeader(v base.HeaderValue, prefix string) string {

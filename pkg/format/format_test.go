@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/bluenviron/mediacommon/pkg/codecs/mpeg4audio"
+	"github.com/moon-wind/mediacommon/pkg/codecs/mpeg4audio"
 )
 
 func intPtr(v int) *int {

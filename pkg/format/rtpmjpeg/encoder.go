@@ -7,7 +7,7 @@ import (
 
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/mediacommon/pkg/codecs/jpeg"
+	"github.com/moon-wind/mediacommon/pkg/codecs/jpeg"
 )
 
 const (

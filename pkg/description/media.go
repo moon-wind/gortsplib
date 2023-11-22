@@ -12,8 +12,8 @@ import (
 
 	psdp "github.com/pion/sdp/v3"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/format"
+	"github.com/moon-wind/gortsplib/pkg/base"
+	"github.com/moon-wind/gortsplib/pkg/format"
 )
 
 var smartRegexp = regexp.MustCompile("^([0-9]+) (.*?)/90000")

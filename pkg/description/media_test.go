@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/format"
-	"github.com/bluenviron/gortsplib/v4/pkg/sdp"
+	"github.com/moon-wind/gortsplib/pkg/base"
+	"github.com/moon-wind/gortsplib/pkg/format"
+	"github.com/moon-wind/gortsplib/pkg/sdp"
 )
 
 func mustParseURL(s string) *base.URL {

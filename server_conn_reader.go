@@ -4,8 +4,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/liberrors"
+	"github.com/moon-wind/gortsplib/pkg/base"
+	"github.com/moon-wind/gortsplib/pkg/liberrors"
 )
 
 type errSwitchReadFunc struct {

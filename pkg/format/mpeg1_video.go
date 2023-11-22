@@ -3,7 +3,7 @@ package format //nolint:dupl
 import (
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/format/rtpmpeg1video"
+	"github.com/moon-wind/gortsplib/pkg/format/rtpmpeg1video"
 )
 
 // MPEG1Video is a RTP format for a MPEG-1/2 Video codec.

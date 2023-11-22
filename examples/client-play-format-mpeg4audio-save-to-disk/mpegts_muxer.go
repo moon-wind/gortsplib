@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/bluenviron/mediacommon/pkg/codecs/mpeg4audio"
-	"github.com/bluenviron/mediacommon/pkg/formats/mpegts"
+	"github.com/moon-wind/mediacommon/pkg/codecs/mpeg4audio"
+	"github.com/moon-wind/mediacommon/pkg/formats/mpegts"
 )
 
 func durationGoToMPEGTS(v time.Duration) int64 {

@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/bluenviron/mediacommon/pkg/codecs/h265"
+	"github.com/moon-wind/mediacommon/pkg/codecs/h265"
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/format/rtph265"
+	"github.com/moon-wind/gortsplib/pkg/format/rtph265"
 )
 
 // H265 is a RTP format for the H265 codec.

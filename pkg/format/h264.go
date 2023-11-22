@@ -11,8 +11,8 @@ import (
 
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/format/rtph264"
-	"github.com/bluenviron/mediacommon/pkg/codecs/h264"
+	"github.com/moon-wind/gortsplib/pkg/format/rtph264"
+	"github.com/moon-wind/mediacommon/pkg/codecs/h264"
 )
 
 // H264 is a RTP format for the H264 codec.

@@ -2,7 +2,7 @@
 package url
 
 import (
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
+	"github.com/moon-wind/gortsplib/pkg/base"
 )
 
 // URL is a RTSP URL.

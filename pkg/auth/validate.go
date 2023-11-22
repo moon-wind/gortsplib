@@ -6,8 +6,8 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/headers"
+	"github.com/moon-wind/gortsplib/pkg/base"
+	"github.com/moon-wind/gortsplib/pkg/headers"
 )
 
 func md5Hex(in string) string {

@@ -1,8 +1,8 @@
 package gortsplib
 
 import (
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/description"
+	"github.com/moon-wind/gortsplib/pkg/base"
+	"github.com/moon-wind/gortsplib/pkg/description"
 )
 
 // ServerHandler is the interface implemented by all the server handlers.

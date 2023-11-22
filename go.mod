@@ -1,9 +1,9 @@
-module github.com/bluenviron/gortsplib/v4
+module github.com/moon-wind/gortsplib
 
-go 1.19
+go 1.20
 
 require (
-	github.com/bluenviron/mediacommon v1.5.1
+	github.com/moon-wind/mediacommon v1.0.0
 	github.com/google/uuid v1.4.0
 	github.com/pion/rtcp v1.2.12
 	github.com/pion/rtp v1.8.3

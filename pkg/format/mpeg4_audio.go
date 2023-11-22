@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bluenviron/mediacommon/pkg/codecs/mpeg4audio"
+	"github.com/moon-wind/mediacommon/pkg/codecs/mpeg4audio"
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/format/rtpmpeg4audio"
+	"github.com/moon-wind/gortsplib/pkg/format/rtpmpeg4audio"
 )
 
 // MPEG4Audio is a RTP format for a MPEG-4 Audio codec.

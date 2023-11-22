@@ -3,7 +3,7 @@ package rtpav1
 import (
 	"testing"
 
-	"github.com/bluenviron/mediacommon/pkg/codecs/av1"
+	"github.com/moon-wind/mediacommon/pkg/codecs/av1"
 	"github.com/pion/rtp"
 	"github.com/stretchr/testify/require"
 )

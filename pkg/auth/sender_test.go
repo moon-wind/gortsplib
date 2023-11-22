@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
+	"github.com/moon-wind/gortsplib/pkg/base"
 )
 
 func TestSenderErrors(t *testing.T) {

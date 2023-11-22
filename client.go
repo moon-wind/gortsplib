@@ -1,7 +1,7 @@
 /*
 Package gortsplib is a RTSP 1.0 library for the Go programming language.
 
-Examples are available at https://github.com/bluenviron/gortsplib/tree/main/examples
+Examples are available at https://github.com/moon-wind/gortsplib/tree/main/examples
 */
 package gortsplib
 
@@ -19,16 +19,16 @@ import (
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/auth"
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/bytecounter"
-	"github.com/bluenviron/gortsplib/v4/pkg/conn"
-	"github.com/bluenviron/gortsplib/v4/pkg/description"
-	"github.com/bluenviron/gortsplib/v4/pkg/format"
-	"github.com/bluenviron/gortsplib/v4/pkg/headers"
-	"github.com/bluenviron/gortsplib/v4/pkg/liberrors"
-	"github.com/bluenviron/gortsplib/v4/pkg/rtptime"
-	"github.com/bluenviron/gortsplib/v4/pkg/sdp"
+	"github.com/moon-wind/gortsplib/pkg/auth"
+	"github.com/moon-wind/gortsplib/pkg/base"
+	"github.com/moon-wind/gortsplib/pkg/bytecounter"
+	"github.com/moon-wind/gortsplib/pkg/conn"
+	"github.com/moon-wind/gortsplib/pkg/description"
+	"github.com/moon-wind/gortsplib/pkg/format"
+	"github.com/moon-wind/gortsplib/pkg/headers"
+	"github.com/moon-wind/gortsplib/pkg/liberrors"
+	"github.com/moon-wind/gortsplib/pkg/rtptime"
+	"github.com/moon-wind/gortsplib/pkg/sdp"
 )
 
 // convert an URL into an address, in particular:
